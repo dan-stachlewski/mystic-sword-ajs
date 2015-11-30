@@ -1,0 +1,20 @@
+{
+		"name": "Web Connectivity A",
+		"subject_code": "DW507",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/web-conn-a.png",
+		"teacher_details": {
+						"Name": "Jacquie Smith",
+						"Email": "jsmith@msu.edu.au",
+						"Contact No": "(03) 9345 3834",
+						"Office Number": "Room: 225"
+		},
+		"class_times": {
+			"Tuesday": "0830-1030hrs",
+			"Wednesday": "1400-1500hrs",
+			"Thursday": "0830-0930hrs"
+		},
+		"reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam qui, asperiores. Ullam eius voluptatum nemo culpa saepe. Quasi doloribus iste eveniet facere esse voluptates sunt in totam doloremque voluptate. Provident!",
+		"takeSubject": true,
+		"subjectFull": false
+}

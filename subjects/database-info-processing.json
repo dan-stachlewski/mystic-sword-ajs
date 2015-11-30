@@ -1,0 +1,20 @@
+{
+		"name": "Database & Information Processing",
+		"subject_code": "DW511",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/dbase-info-process.png",
+		"teacher_details": {
+						"Name": "John Doe",
+						"Email": "jdoe@msu.edu.au",
+						"Contact No": "(03) 9345 3884",
+						"Office Number": "Room: 311"
+		},
+		"class_times": {
+			"Monday": "1030-1230hrs",
+			"Wednesday": "1100-1300hrs",
+			"Friday": "0830-1000hrs"
+		},
+		"reviews": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam qui, asperiores. Ullam eius voluptatum nemo culpa saepe. Quasi doloribus iste eveniet facere esse voluptates sunt in totam doloremque voluptate. Provident!",
+		"takeSubject": true,
+		"subjectFull": false
+}

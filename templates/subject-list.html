@@ -1,0 +1,15 @@
+<h1>Choose Subjects</h1>
+	<label for="search">Search for Subject</label>
+	<input ng-model="query" type="text">
+
+	<label for="sort">Sort by:</label>
+	<select ng-model="orderProperty" name="sort" id="">
+		<option value="name">Alphabetical</option>
+		<option value="subject_code">Subject Code</option>
+	</select>
+
+<ul>
+	<li ng-repeat="subject in subjects | filter:query | orderBy: orderProperty">
+		<a href="#/subjects/{{subject.id}}"><span>{{subject.name}} | {{subject.subject_code}}</span></a>
+	</li>
+</ul>

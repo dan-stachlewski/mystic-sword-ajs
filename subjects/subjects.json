@@ -1,0 +1,65 @@
+[
+	{
+		"name": "Design for CMS",
+		"subject_code": "DW506",
+		"id": "design-for-cms",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/design-for-cms.png",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Database & Information Processing",
+		"subject_code": "DW511",
+		"id": "database-info-processing",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/dbase-info-process.png",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Web Connectivity A",
+		"subject_code": "DW507",
+		"id": "web-con-a",
+		"img": "img/web-conn-a.png",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Webserver & Systems Administration",
+		"subject_code": "DW510",
+		"id": "web-server-sys-admin",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/web-server-sys-admin.png",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Emerging Web Trends",
+		"subject_code": "DW505",
+		"id": "emerging-web-trends",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/emerging-web-trends.png",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Object Oriented Programming in Java",
+		"subject_code": "DW509",
+		"id": "oop-in-java",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/oop-java.png",
+		"takeSubject": true,
+		"subjectFull": false
+	},
+	{
+		"name": "Web Connectivity B",
+		"subject_code": "DW508",
+		"id": "web-con-b",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt architecto atque laboriosam, perspiciatis magnam quibusdam voluptatem labore dignissimos, nesciunt modi a possimus fugit nulla nemo nam cumque voluptates. At, dolorem.",
+		"img": "img/web-conn-b.png",
+		"takeSubject": true,
+		"subjectFull": false
+	}
+	]
