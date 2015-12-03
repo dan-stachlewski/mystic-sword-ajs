@@ -15,8 +15,9 @@
         		}).
         		when('/subjects/:subject_id', {
         			templateUrl: 'templates/subject-details.html',
-        			controller: 'TimeTableDetailsCtrl'
+        			controller: 'TimeTableDetailsCtrl',
         		}).
+        /* ==== NEED TO ADD A ROUTE FOR WHOLE TIMETABLE VIEW & HAVE A LINK ON THE FRONT PAGE ==== */
         		otherwise( {
         			redirectTo: '/'
         		});

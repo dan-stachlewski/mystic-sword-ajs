@@ -1,8 +1,74 @@
-<ul>
+<!-- <ul>
 	<li>
 		<a href="#/"><span>Back</span></a>
 	</li>
 	<li>{{subject.name}} | {{subject.subject_code}}</li>
-</ul>
+</ul> -->
 
+    <div class="container">
+	    <div class="row">
+		    <!-- ================ DISPLAY SUBJECT DATA ============ -->
+		    <!-- USE ng-controller DIRECTIVE to ATTACH CONTROLLER to ALIAS -->
+		    <!-- USE ng-controller DIRECTIVE CONTROLLER NAME as ALIAS -->
+			<div class="subject-information">
+				<!-- ACCESS THE subject var using -->
+				<br />
+				<!-- This DIRECTIVE ng-hide says HIDE the OBJECT/SUBJECT if VALUE=true -->
+				<!-- This DIRECTIVE ng-repeat REITERATES thru all subjects in the COURSE[array] and DISPLAYS them -->
+				<!-- ng-repeat="course in timetable.courses | orderBy:'subject_code'" -->
+				<div ng-hide="subject.subjectFull" class="well">
+					<!-- timetable from controller | course from app.js | name from subject var -->
+					<h2>Title | {{ subject.name }}</h2>
+					<h3>Subject Code | {{ subject.subject_code }}</h3>
+					<p>Description | {{ subject.description }}</p>
+					<div class="container">
+						<!-- This DIRECTIVE ng-show says SHOW the OBJECT/BUTTON if VALUE=true -->
+						<button ng-show="subject.takeSubject" class="btn btn-primary">Add Subject</button>
+						<!-- This DIRECTIVE ng-src allows the IMG name to be added in the COURSE[array] and DISPLAYS them -->
+						<img class="pull-right" ng-src="{{ subject.img }}" alt="" width="167" height="200">
+					</div>
+					<!-- This DIRECTIVE ng-init defines the INITIAL tab on page load -->
+					<!-- This DIRECTIVE ng-controller to CONTROL some of the PANEL=alias LOGIC -->
+					<section ng-init="tab = 1" ng-controller="panelController as panel">
+						<ul class="nav nav-pills">
+							<!-- This DIRECTIVE ng-click changes the VALUE of the tab auto getting updated -->
+							<!-- The EXPRESSION defines a 2 WAY DATA BINDING - EXPRESSIONS are RE_EVALUATED when a PROPERTY CHANGES -->
 
+							<!-- The DIRECTIVE ng-class SPECIFIES an OBJECT, the CLASS to SET then the EXPRESSIONS to EVALUATE -->
+							<li ng-class="{ active:panel.isSelected(1)}">
+								<a href="" ng-click="panel.selectTab(1)">Instructor Details</a>
+							</li>
+							<li ng-class="{ active:panel.isSelected(2)}">
+								<a href="" ng-click="panel.selectTab(2)">Class Times</a>
+							</li>
+							<li ng-class="{ active:panel.isSelected(3)}">
+								<a href="" ng-click="panel.selectTab(3)">Reviews</a>
+							</li>
+						</ul>
+						<!--<p>{{tab}}</p>-->
+						<!-- This DIRECTIVE ng-show DISPLAYS the CORRESPONDING tab when CLICKED -->
+						<div class="panel" ng-show="panel.isSelected(1)">
+							<h4>Instructor Details</h4>
+							<ul ng-repeat="contact_info in subject.teacher_details">
+								<li>{{contact_info}}</li>
+							</ul>
+						</div>
+						<div class="panel" ng-show="panel.isSelected(2)">
+							<h4>Class Times</h4>
+
+							<ul ng-repeat="day_and_time in subject.class_times">
+								<li>{{day_and_time}}</li>
+							</ul>
+						</div>
+						<div class="panel" ng-show="panel.isSelected(3)">
+							<h4>Reviews</h4>
+							<p>{{subject.reviews}}</p>
+							<blockquote>None yet.</blockquote>
+						</div>
+					</section>
+				</div>
+			</div><!-- /.ng-controller -->
+		</div><!-- /.row -->
+		<!-- This DIRECTIVE ng-show says SHOW the OBJECT/BUTTON if VALUE=true -->
+		<a href="#/"><span>Back</span></a>
+	</div><!-- /.container -->
